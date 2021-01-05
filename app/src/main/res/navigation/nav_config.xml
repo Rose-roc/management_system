@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_config"
+    app:startDestination="@id/navigation_owner">
+
+    <fragment
+        android:id="@+id/navigation_owner"
+        android:name="com.example.management_system.module.owner.OwnerFragment"
+        android:label="OwnerFragment"
+        tools:layout="@layout/fragment_owner">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_house"
+        android:name="com.example.management_system.module.house.HouseFragment"
+        android:label="HouseFragment"
+        tools:layout="@layout/fragment_house">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_maintain"
+        android:name="com.example.management_system.module.maintain.MaintainFragment"
+        android:label="MaintainFragment"
+        tools:layout="@layout/fragment_maintain">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_pay"
+        android:name="com.example.management_system.module.pay.PayFragment"
+        android:label="PayFragment"
+        tools:layout="@layout/fragment_pay">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_mine"
+        android:name="com.example.management_system.module.mine.MineFragment"
+        android:label="MineFragment"
+        tools:layout="@layout/fragment_mine"/>
+</navigation>

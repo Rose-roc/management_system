@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_10">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_press_color_foreground_top_radius_max">
+
+        <TextView
+            android:id="@+id/tv_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:paddingTop="5dp"
+            android:paddingEnd="@dimen/dp_10"
+            android:paddingBottom="5dp"
+            android:text="罗小黑"
+            android:textColor="@color/timeTextColor"
+            android:textSize="@dimen/text_auxiliary"
+            tools:ignore="RtlSymmetry" />
+
+        <ImageView
+            android:id="@+id/iv_remove"
+            android:layout_width="@dimen/dp_15"
+            android:layout_height="@dimen/dp_15"
+            android:layout_alignTop="@+id/tv_key"
+            android:layout_alignEnd="@+id/tv_key"
+            android:layout_marginTop="-3dp"
+            android:layout_marginEnd="-3dp"
+            android:padding="3dp"
+            android:src="@drawable/ic_remove"
+            android:visibility="invisible"
+            app:tint="@color/accent"
+            tools:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

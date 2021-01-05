@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/SearchHistoryFragment">
+    <fragment
+        android:id="@+id/SearchHistoryFragment"
+        android:name="com.example.management_system.module.owner.SearchHistoryFragment"
+        android:label="fragment_search_history"
+        tools:layout="@layout/fragment_search_history">
+        <action
+            android:id="@+id/action_search_result"
+            app:destination="@id/SearchResultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SearchResultFragment"
+        android:name="com.example.management_system.module.owner.SearchResultFragment"
+        android:label="fragment_search_result"
+        tools:layout="@layout/fragment_search_result" />
+</navigation>

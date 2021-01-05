@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_owner"
+        android:icon="@drawable/ic_owner"
+        android:title="@string/owner" />
+
+    <item
+        android:id="@+id/navigation_house"
+        android:icon="@drawable/ic_house"
+        android:title="@string/house" />
+
+    <item
+        android:id="@+id/navigation_maintain"
+        android:icon="@drawable/ic_maintain"
+        android:title="@string/maintain" />
+
+    <item
+        android:id="@+id/navigation_pay"
+        android:icon="@drawable/ic_pay"
+        android:title="@string/pay" />
+
+    <item
+        android:id="@+id/navigation_mine"
+        android:icon="@drawable/ic_mine"
+        android:title="@string/mine" />
+</menu>

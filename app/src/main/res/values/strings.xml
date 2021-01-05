@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">小区物业管理系统</string>
+    <string name="user_name">用户名</string>
+    <string name="account_or_password_empty">用户名或密码为空</string>
+    <string name="PARSE_ERROR_MSG">解析数据失败</string>
+    <string name="BAD_NETWORK_MSG">网络问题</string>
+    <string name="CONNECT_ERROR_MSG">连接错误</string>
+    <string name="CONNECT_TIMEOUT_MSG">连接超时</string>
+    <string name="OTHER_MSG">未知错误</string>
+    <string name="gsonIsNull">gson == null</string>
+    <string name="MEDIA_TYPE">application/json; charset=UTF-8</string>
+    <string name="errorCode">code</string>
+    <string name="errorMsg">msg</string>
+    <string name="IOExceptionDecodeCookie">IOException in decodeCookie</string>
+    <string name="ClassNotFoundException">ClassNotFoundException in decodeCookie</string>
+    <string name="IOExceptionEncodeCookie">IOException in encodeCookie</string>
+    <string name="loginFail">登录失效，请重新登录</string>
+    <string name="loading">加载中</string>
+    <string name="empty_no_data">没有数据，点击重试</string>
+    <string name="empty_network_error">网络错误，点击重试</string>
+    <string name="owner">业主</string>
+    <string name="house">房屋</string>
+    <string name="maintain">维修</string>
+    <string name="pay">收费</string>
+    <string name="mine">我的</string>
+    <string name="double_quit">再按一次退出</string>
+    <string name="KEY_HISTORY">KEY_HISTORY</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/dp_20"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dp_10">
+
+        <TextView
+            android:id="@+id/tv_maintain_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/dp_20"
+            android:text="id"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@+id/view_point"
+            android:layout_width="@dimen/dp_15"
+            android:layout_height="@dimen/dp_15"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@drawable/bg_point_red" />
+
+        <TextView
+            android:id="@+id/tv_owner_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_toEndOf="@+id/tv_maintain_id"
+            android:text="内容"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/tv_registration_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_owner_name"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_toEndOf="@+id/tv_maintain_id"
+            android:text="2020-12-18 16:30:00" />
+
+        <TextView
+            android:id="@+id/tv_maintain_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_registration_time"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_toEndOf="@+id/tv_maintain_id"
+            android:text="￥100"
+            android:textColor="#c75450"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_maintain_finished_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_registration_time"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_toEndOf="@+id/tv_maintain_cost"
+            android:text="于 2020-12-18 16:30:00 完成维修"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
